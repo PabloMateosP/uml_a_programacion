@@ -37,3 +37,4 @@ public class Cliente {
         this.email = email;
     }
 }
+//Creo que también podría haber declarado un carrito de la compra para aumentar el código
