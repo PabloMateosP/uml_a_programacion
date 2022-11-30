@@ -37,6 +37,7 @@ public class Amazon {
         System.out.println("Edad: " + usuario4.getEdad());
         usuario4.setEmail("Pacooomp@gmail.com");
         System.out.println("Email: " + usuario4.getEmail());
-        //He hecho lo posible ya que no sé que más hacer :)
+        //He hecho lo posible ya que no sé que más hacer :)ç
+        //Además se le puede añadir el carrito y los productos. 
     }
 }
