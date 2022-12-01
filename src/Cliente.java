@@ -36,6 +36,20 @@ public class Cliente {
     public void setEmail(String email){
         this.email = email;
     }
+    Integer productos = 22;
+    void cantidad_producto () {
+        if (productos > 20 ){
+            System.out.println("Carrito solo puede guardar 20 artículos debe borrar " + (productos - 20) + " para pasar a caja.");
+        }
+    }
+    Integer precio = 300;
+    void precio_producto () {
+        if (precio > 500){
+            System.out.println("");
+        } else {
+            System.out.println("Le quedan " + (500 - precio) + " para añadir.");
+        }
+    }
 }
 //Creo que también podría haber declarado un carrito de la compra para aumentar el código.
 //Creo también que el poducto a pedir y sus detalles se pueden declarar igual que la persona

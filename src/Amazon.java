@@ -13,6 +13,8 @@ public class Amazon {
         System.out.println("Edad: " + usuario1.getEdad());
         usuario1.setEmail("Francisco123@gmail.com");
         System.out.println("Email: " + usuario1.getEmail());
+        usuario1.cantidad_producto();
+        usuario1.precio_producto();
 
         System.out.println("Usuario2");
         usuario2.setNombre("Manolo");
@@ -38,6 +40,6 @@ public class Amazon {
         usuario4.setEmail("Pacooomp@gmail.com");
         System.out.println("Email: " + usuario4.getEmail());
         //He hecho lo posible ya que no sé que más hacer :)ç
-        //Además se le puede añadir el carrito y los productos. 
+        //Además se le puede añadir el carrito y los productos.
     }
 }
