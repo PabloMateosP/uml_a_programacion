@@ -1,17 +1,10 @@
 package animal_perroo;
-
-import java.sql.SQLOutput;
-
 public class Perro extends animal {
     String raza;
     Integer edad = 4;
-
-    public Perro () {
-        // Default constructor
-    }
-    public Perro(String nombre, String raza) {
-        //super.nombre = nombre; //Versión inicial
-        super(nombre); // Versión modificada
+    
+    public Perro(String nombre, String raza) {   
+        super(nombre); 
         this.raza = raza;
     }
     void imprime () {
